@@ -9,10 +9,14 @@ Installation
 Usage
 =====
 
-    const findFileRecursivelyUp = require('simple-find-file-recursively-up')
+```javascript
+const findFileRecursivelyUp = require('simple-find-file-recursively-up')
 
-    const found = findFileRecursivelyUp('.mxflow/config.yml')
-    // /home/meta/.mxflow/config.yml
+// Pass filename
+const found = findFileRecursivelyUp('config.yml')
+// /home/meta/dev/project-x/.circleci/config.yml
 
-    const found = findFileRecursivelyUp('config.yml')
-    // /home/meta/dev/project-x/.circleci/config.yml
+// pass file path suffix
+const found = findFileRecursivelyUp('.mxflow/config.yml')
+// /home/meta/.mxflow/config.yml
+```
