@@ -19,4 +19,8 @@ const found = findFileRecursivelyUp('config.yml')
 // pass file path suffix
 const found = findFileRecursivelyUp('.mxflow/config.yml')
 // /home/meta/.mxflow/config.yml
+
+// pass non-existing path
+const found = findFileRecursivelyUp('file-that-dont-exist.csv')
+// null
 ```
