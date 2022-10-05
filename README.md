@@ -1,6 +1,14 @@
 simple find file recursively up
 ===============================
 
+Installation
+============
+    npm i simple-find-file-recursively-up
+
+
+Usage
+=====
+
     const findFileRecursivelyUp = require('simple-find-file-recursively-up')
 
     const found = findFileRecursivelyUp('.mxflow/config.yml')
