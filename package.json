@@ -1,0 +1,22 @@
+{
+  "name": "simple-find-file-recursively-up",
+  "version": "1.0.0",
+  "description": "returns the path at which a provided pattern exists, checking the current directory and any parent folders recursively up",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/metaory/simple-find-file-recursively-up.git"
+  },
+  "keywords": [
+    "simple",
+    "find",
+    "file",
+    "recursively",
+    "up"
+  ],
+  "author": "metaory <metaory@gmail.com>",
+  "license": "MIT"
+}
