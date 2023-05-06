@@ -8,12 +8,10 @@ function findFile(filename, dir = process.cwd()) {
 
   if (existsSync(path)) {
     return path
-  } else {
-    if (upDir === '/') {
-      return null
-    }
-    return findFile(filename, upDir)
-  }
+  } 
+  if (upDir === '/') {
+
+  return findFile(filename, upDir)
 }
 
 module.exports = findFile
