@@ -9,7 +9,10 @@ function findFile(filename, dir = process.cwd()) {
   if (existsSync(path)) {
     return path
   } 
+
   if (upDir === '/') {
+    return null
+  }
 
   return findFile(filename, upDir)
 }
